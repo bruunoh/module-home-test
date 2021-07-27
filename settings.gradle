@@ -1,6 +1,6 @@
-rootProject.name = "Module Home Test"
-include ':app'
 include ':home'
+include ':app'
+rootProject.name = "Module Home Test"
 
 include ':componentes'
 project(':componentes').projectDir = new File(settingsDir, '/module-componentes-test/componentes')
