@@ -1,4 +1,3 @@
 <resources>
-
-    <string name="activity_home_text_view">Module App</string>
+    <string name="activity_home_text_view">Module App Test</string>
 </resources>
