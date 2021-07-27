@@ -1,0 +1,26 @@
+ext.flavorConfig = {
+
+    flavorDimensions "store"
+
+    productFlavors {
+        shoes {
+            dimension "store"
+            ext.myApplicationIdSuffix = '.shoes'
+        }
+        outfits {
+            dimension "store"
+            ext.myApplicationIdSuffix = '.outfits'
+        }
+    }
+
+    productFlavors.all { flavor ->
+        if (flavor.hasProperty('myApplicationIdSuffix') && isApplicationProject()) {
+            flavor.applicationIdSuffix = flavor.myApplicationIdSuffix
+        }
+    }
+
+}
+
+def isApplicationProject() {
+    return project.android.class.simpleName.startsWith('BaseAppModuleExtension')
+}
