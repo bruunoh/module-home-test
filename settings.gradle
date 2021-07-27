@@ -1,3 +1,2 @@
 rootProject.name = "Module Home Test"
 include ':app'
-include ':home'
