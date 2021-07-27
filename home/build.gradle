@@ -27,8 +27,29 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+
+    productFlavors {
+        flavorDimensions "store"
+
+        caps {
+            dimension 'store'
+            applicationIdSuffix '.caps'
+            manifestPlaceholders.appName = "Caps"
+        }
+        shoes {
+            dimension 'store'
+            applicationIdSuffix '.shoes'
+            manifestPlaceholders.appName = "Shoes"
+        }
+        outfits {
+            dimension 'store'
+            applicationIdSuffix '.outfits'
+            manifestPlaceholders.appName = "Clothes"
+        }
     }
 }
 
