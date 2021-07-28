@@ -7,6 +7,64 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:708279332322:android:a71a7dff411d900d76ddbb",
+        "android_client_info": {
+          "package_name": "br.com.cardoso.bruno.home.outfits"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708279332322-peq09i5nasmcasqf83kjto8kpv1pqugt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB89IhPwFLzwm0p9yicWBa_tT7ZPe9uPCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708279332322-peq09i5nasmcasqf83kjto8kpv1pqugt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708279332322:android:7d16d847e246883076ddbb",
+        "android_client_info": {
+          "package_name": "br.com.cardoso.bruno.home.shoes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708279332322-peq09i5nasmcasqf83kjto8kpv1pqugt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB89IhPwFLzwm0p9yicWBa_tT7ZPe9uPCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708279332322-peq09i5nasmcasqf83kjto8kpv1pqugt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:708279332322:android:9c1a82c52d3cc59776ddbb",
         "android_client_info": {
           "package_name": "br.com.cardoso.bruno.modulehometest"
