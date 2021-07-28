@@ -40,7 +40,7 @@ android {
         jvmTarget = '1.8'
     }
 
-    with flavorConfig
+//    with flavorConfig
 }
 
 dependencies {
